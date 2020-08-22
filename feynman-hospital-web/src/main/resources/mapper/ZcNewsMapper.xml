@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.fnm.feynman.hospital.web.mapper.ZcNewsMapper">
+
+    <!-- 通用查询映射结果 -->
+    <resultMap id="BaseResultMap" type="com.fnm.feynman.hospital.web.entity.ZcNews">
+        <id column="news_id" property="newsId" />
+        <result column="user_id" property="userId" />
+        <result column="news_info" property="newsInfo" />
+    </resultMap>
+
+</mapper>
